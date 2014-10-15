@@ -22,15 +22,15 @@ $choice = choose_module
 $choice = $study_modules.sample if $choice == 0
 
 case $choice
-when 6 puts 6
-when 7 puts 7
-when 9 puts 9
-when 10 puts 10
-when 11 puts 11
-when 12 puts 12
-when 18 puts 18
-when 19 puts 19
-when 20 puts 20
+when 6 then puts 6
+when 7 then puts 7
+when 9 then puts 9
+when 10 then puts 10
+when 11 then puts 11
+when 12 then puts 12
+when 18 then puts 18
+when 19 then puts 19
+when 20 then puts 20
 else puts "Error"
 end
 
