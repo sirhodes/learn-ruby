@@ -21,16 +21,27 @@ $choice = choose_module
 
 $choice = $study_modules.sample if $choice == 0
 
+question_bank = {}
+mod_6_qb = {}
+mod_7_qb = {}
+mod_9_qb = {}
+mod_10_qb = {}
+mod_11_qb = {}
+mod_12_qb = {}
+mod_18_qb = {}
+mod_19_qb = {}
+mod_20_qb = {}
+
 case $choice
-when 6 then puts 6
-when 7 then puts 7
-when 9 then puts 9
-when 10 then puts 10
-when 11 then puts 11
-when 12 then puts 12
-when 18 then puts 18
-when 19 then puts 19
-when 20 then puts 20
+when 6 then question_bank = mod_6_qb
+when 7 then question_bank = mod_7_qb
+when 9 then question_bank = mod_9_qb
+when 10 then question_bank = mod_10_qb
+when 11 then question_bank = mod_11_qb
+when 12 then question_bank = mod_12_qb
+when 18 then question_bank = mod_18_qb
+when 19 then question_bank = mod_19_qb
+when 20 then question_bank = mod_20_qb
 else puts "Error"
 end
 
