@@ -24,60 +24,16 @@ if $choice == 0
 end
 
 case $choice
-when 6
-  #puts 6
-  question_bank = {
-    "What is plasticity" => "The brains ability to develop",
-    "Define corpus collosum" => "I can't"
-  }
-when 7
-  #puts 7
-  question_bank = {
-    "What is plasticity" => "The brains ability to develop",
-    "Define corpus collosum" => "I can't"
-  }
-when 9
-  #puts 9
-  question_bank = {
-    "What is plasticity" => "The brains ability to develop",
-    "Define corpus collosum" => "I can't"
-  }
-when 10
-  #puts 10
-  question_bank = {
-    "What is plasticity" => "The brains ability to develop",
-    "Define corpus collosum" => "I can't"
-  }
-when 11
-  #puts 11
-  question_bank = {
-    "What is plasticity" => "The brains ability to develop",
-    "Define corpus collosum" => "I can't"
-  }
-when 12
-  #puts 12
-  question_bank = {
-    "What is plasticity" => "The brains ability to develop",
-    "Define corpus collosum" => "I can't"
-  }
-when 18
-  #puts 18
-  question_bank = {
-    "What is plasticity" => "The brains ability to develop",
-    "Define corpus collosum" => "I can't"
-  }
-when 19
-  #puts 19
-  question_bank = {
-    "What is plasticity" => "The brains ability to develop",
-    "Define corpus collosum" => "I can't"
-  }
-when 20
-  #puts 20
-  question_bank = {
-    "What is plasticity" => "The brains ability to develop",
-    "Define corpus collosum" => "I can't"
-  }
+when 6 puts 6
+when 7 puts 7
+when 9 puts 9
+when 10 puts 10
+when 11 puts 11
+when 12 puts 12
+when 18 puts 18
+when 19 puts 19
+when 20 puts 20
+else puts "Error"
 end
 
 question_bank.each {|key, value| puts key, value, "\n"}
