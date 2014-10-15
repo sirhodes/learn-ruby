@@ -19,9 +19,7 @@ end
 ## take input from user to be passed
 $choice = choose_module
 
-if $choice == 0
-  $choice = $study_modules.sample
-end
+$choice = $study_modules.sample if $choice == 0
 
 case $choice
 when 6 puts 6
