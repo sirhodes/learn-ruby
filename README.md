@@ -1,4 +1,4 @@
 learn-ruby
 ==========
 ##Author: Seth Rhodes
-####Twitter Handle: [@si_rhodes](https://twitter.com/sirhodes)
+####Twitter Handle: [@sirhodes](https://twitter.com/sirhodes)
